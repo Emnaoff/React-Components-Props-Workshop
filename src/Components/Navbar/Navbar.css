@@ -1,0 +1,32 @@
+/*My navbar*/
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  width: 1401,5px;
+  border: 1px  rgb(84, 1, 87);
+  padding: 20px;
+  background-color: rgb(248, 244, 248);
+  position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  
+}
+/*The links*/
+.links{
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 100px;
+  padding-top: 23px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+/*My name*/
+.Name{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 27px;
+  color:rgb(95, 7, 119);
+  
+}
+
+  
+  

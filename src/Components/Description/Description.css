@@ -1,0 +1,39 @@
+/*Css of the whole box of description*/
+
+.description{
+    width: 1200px;
+    border: 2px solid rgb(82, 3, 83);
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 90px;
+    margin-top: 60px;
+    background-color: rgb(241, 240, 241);
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Name first part*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100px;
+    font-size:30px;
+    color: rgb(84, 1, 87);
+    margin-top: 70px;
+    
+}
+/*Name second part*/
+h3{
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 150px;
+    color: rgb(84, 1, 87);
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.Emna{
+    border-radius:600px;
+    width: 250px;
+    height: 300px;
+    margin-right: 100px;
+    
+}

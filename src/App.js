@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/Navbar/Navbar';
+import Description from './Components/Description/Description';
+import Projects from './Components/Projects/Projects';
+import Contacts from './Components/Contacts/Contacts';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
+    /*I entirely made this Project using only pure CSS*/
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
+      <br/>
+      <br/>
+      <br/>
+      <Description/>
+      <br/>
+      <Projects/>
+      <br/>
+      <Contacts/>
+      <br/>
+      <br/>
+      <Footer/>
     </div>
   );
 }
